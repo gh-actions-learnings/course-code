@@ -33,7 +33,7 @@ jobs:
               run: |
 
                 echo "Working Directory"
-                Get Location
+                Get-Location
                 echo "List all files / folders"
                 dir
                 echo "Github Built-in Variables"
