@@ -6,7 +6,7 @@ jobs:
     testing-wf-commands:
         runs-on: ubuntu-latest
         steps:
-            - name: Setting an error message
+            - name: Simple error message command in gh workflow
               run: echo "::error::Missing Semicolon"
             - name: Setting an error message with params
               run:  echo "::error title=Error title,file=app.js,line=2,endline=3,col=5,endColumn=7::Missing Semicolon"
